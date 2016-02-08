@@ -1,0 +1,46 @@
+body{
+	background-color: #C8675B;
+}
+p{
+	font-family: garamond,sans-serif;
+	font-size:15px;
+	color:#000000;
+	font-weight: bold;
+	text-align: right;
+}/* unvisited link */
+a:link {
+    color: #818A00;
+}
+
+/* visited link */
+a:visited {
+    color: #3C3D31;
+}
+
+/* mouse over link */
+a:hover {
+    color: #B0BD00;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+#artist {
+	background-color: red;
+	height: 300px;
+	width: 400px;
+	color: green;
+	margin-top: 30px;
+	padding-left: 15px;
+	font-family: garamond;
+	font-size: 36px;
+}
+
+.sidebar {
+s
+}
+.column {
+	float: left;
+}
