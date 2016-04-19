@@ -1,6 +1,6 @@
 #container {
 	width: 1440px;
-	height: 2300px;
+	height: 2500px;
 	margin-top: -10px;
 	margin-left: -8px;
 	background-color: orange;
@@ -8,12 +8,12 @@
 	z-index: 0;
 }
 @font-face {
-	font-family: "Bodoni72";
-	src: url("Bodoni72.ttc");
+	font-family: "Adksa";
+	src: url("Adksa.ttf");
 }
 #box1 {
 	width: 1440px;
-	height: 2310px;
+	height: 2510px;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,010528+48,020942+100 */
 	background: rgb(0,0,0); /* Old browsers */
 	background: -moz-linear-gradient(top,  rgba(0,0,0,1) 0%, rgba(1,5,40,1) 48%, rgba(2,9,66,1) 100%); /* FF3.6-15 */
@@ -747,101 +747,104 @@
 	z-index: 2;
 }
 
-#the3 {
+.the3 {
 	width: 50px;
 	height: 40px;
 	font-family: Bodoni 72;
 	font-size: 40px;
 	color: #FFFFFF;
-	opacity: 0.5;
+	opacity: 0.6;
 	text-align: center;
 	top: 1590px;
 	left: 250px;
 	position: absolute;
 	z-index: 2;
+	animation-name: slide;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 
 }
-#stars {
+	@keyframes slide {
+	0% {transform: translatex(0);}
+	50% {transform: translatey(10px);}
+	100% {transform: translatex(0);}
+}
+
+.stars {
 	width: 350px;
 	height: 200px;
 	font-family: Bodoni 72;
 	font-size: 200px;
 	color: #FFFFFF;
-	opacity: 0.5;
+	opacity: 0.8;
 	text-align: center;
 	top: 1560px;
 	left: 250px;
 	position: absolute;
 	z-index: 2;
+	animation-name: slide;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 
-#sighed {
+.sighed {
 	width: 100px;
 	height: 50px;
 	font-family: Bodoni 72;
 	font-size: 60px;
 	color: #FFFFFF;
-	opacity: 0.5;
+	opacity: 0.6;
 	text-align: center;
 	top: 1750px;
 	left: 550px;
 	position: absolute;
 	z-index: 2;
+	animation-name: slide;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 
 }
 
-#in {
+.in {
 	width: 100px;
 	height: 50px;
 	font-family: Bodoni 72;
 	font-size: 60px;
 	color: #FFFFFF;
-	opacity: 0.5;
+	opacity: 0.6;
 	text-align: center;
 	top: 1750px;
 	left: 690px;
 	position: absolute;
 	z-index: 2;
+	animation-name: slide;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 
 }
-#unison {
+.unison {
 	height: 300px;
 	width: 300px;
 	font-family: Bodoni 72;
 	font-size: 190px;
 	color: #FFFFFF;
-	opacity: 0.5;
+	opacity: 0.8;
 	text-align: center;
 	top: 1780px;
 	left: 650px;
 	position: absolute;
 	z-index: 2;
+	animation-name: slide;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
-#author {
-	font-family: Bodoni 72;
-	font-size: 50px;
-	color: #FFFFFF;
-	opacity: 0.5;
-	text-align: center;
-	top: 2200px;
-	left: 720px;
+#image {
+	top: 2190px;
+	left: 1000px;
+	opacity: 0.3;
 	position: absolute;
 	z-index: 2;
-	word-spacing: .25em;
 }
-#author2 {
-	font-family: Bodoni 72;
-	font-size: 50px;
-	color: #FFFFFF;
-	opacity: 0.5;
-	text-align: center;
-	top: 2200px;
-	left: 920px;
-	position: absolute;
-	z-index: 2;
-	word-spacing: .25em;
-}
-
 .dot {
 	font-family: Bodoni 72;
 	font-size: 40px;
@@ -1535,6 +1538,65 @@
 	animation: dot35 4s infinite;
 }
 	@keyframes dot35 {
+		0%,50%,100%,{
+			color: #FFFFFF;
+		}
+		
+		60% {
+			color: #020942;
+		}
+	}
+.dot36 {
+	font-size: 13px;
+	color: #FFFFFF;
+	text-align: center;
+	top: 1545px;
+	left: 1450px;
+	position: absolute;
+	z-index: 1;
+	animation: dot36 4s infinite;
+}
+	@keyframes dot36 {
+		0%,50%,100%,{
+			color: #FFFFFF;
+		}
+		
+		60% {
+			color: #020942;
+		}
+	}
+.dot37 {
+	font-family: Bodoni 72;
+	font-size: 13px;
+	color: #FFFFFF;
+	text-align: center;
+	top: 1532px;
+	left: 1420px;
+	position: absolute;
+	z-index: 1;
+	animation: dot37 4s infinite;
+}
+	@keyframes dot37 {
+		0%,50%,100%,{
+			color: #FFFFFF;
+		}
+		
+		60% {
+			color: #020942;
+		}
+	}
+.dot38 {
+	font-family: Bodoni 72;
+	font-size: 13px;
+	color: #FFFFFF;
+	text-align: center;
+	top: 1525px;
+	left: 1450px;
+	position: absolute;
+	z-index: 1;
+	animation: dot38 4s infinite;
+}
+	@keyframes dot38 {
 		0%,50%,100%,{
 			color: #FFFFFF;
 		}
