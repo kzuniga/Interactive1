@@ -1,0 +1,43 @@
+#container{
+	width: 1440px;
+	height: 900px;
+	background-color: #383434;
+	margin-top: -10px;
+	margin-left: -10px;
+	position: absolute;
+	z-index: 0;
+}
+#box1 {
+	top: 50px;
+	left: 450px;
+	position: absolute;
+	z-index: 1;
+}
+
+.link1{
+	top: 600px;
+	left: 855px;
+	width: 160px;
+	height: 125px;
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+.link2{
+	top: 400px;
+	left: 750px;
+	width: 160px;
+	height: 125px;
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+.link3{
+	top: 210px;
+	left: 625px;
+	width: 70px;
+	height: 50px;
+    display: block;
+    position: absolute;
+    z-index: 1;
+}

@@ -1,0 +1,45 @@
+body{
+	background-color: #000000;
+}
+
+#container {
+	width: 1200px;
+	height: 4000px;
+	margin: auto;
+}
+
+@font-face {
+	font-family: "Oswald";
+	src: url("Oswald.otf");
+}
+
+@font-face {
+	font-family: "Broadmoor";
+	src: url("Broadmoor.ttf");
+}
+
+@font-face {
+	font-family: "BroadwayEngSCD";
+	src: url("BroadwayEngSCD.ttf");
+}
+
+#main {
+	font-family: Oswald;
+	font-size: 100px;
+	color: #FF3019;
+	text-align: center;
+}
+
+#main2 {
+	font-family: Broadmoor;
+	font-size: 100px;
+	color: #FF3019;
+	text-align: center;
+}
+
+#main3 {
+	font-family: BroadwayEngSCD;
+	font-size: 100px;
+	color: #FF3019;
+	text-align: center;
+}

@@ -1,0 +1,20 @@
+.box1 {
+	background: #d5cedf;
+	color: #000000;
+	font-size: 30px;
+	width: 500px;
+	height: 100px;
+	font-family: Helvetica;
+	margin-bottom: 300px;
+	padding: 30px;
+}
+.box2 {
+	background: #e6f9fc;
+	color: #000000;
+	font-size: 100px;
+	width: 500px;
+	font-family: Helvetica;
+	margin-top: 40px;
+	text-align: center;
+	padding: 30px;
+}
